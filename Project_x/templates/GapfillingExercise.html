@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gap Filling Exercise Result</title>
+    <link rel="stylesheet" type="text/css" href="static/style_1_res.css">
+</head>
+<body>
+    <h1>Gap Filling Exercise Result</h1>
+    <p>{{ gap_filled_text }}</p>
+    <h2>Answer Choices:</h2>
+    <ol>
+        {% for word in gaps %}
+            <li>{{ word }}</li>
+        {% endfor %}
+    </ol>
+</body>
+</html>
+
+
+
